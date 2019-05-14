@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta content="width=device-width, intial-scale=1" name=viewport">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
 
         <title></title>
         
@@ -14,7 +14,7 @@
     <body>
 
         <section>
-            <h1 id="title">Survey Form</h1>
+            <h1 id="title">Feedback Form</h1>
         </section>
 
         <section id="survey-body">
@@ -23,7 +23,7 @@
             <form id="survey-form" method="" action="">
                 <div class="input-row">
                     <div class="labels">
-                        <label for="name" id="name-label">Name:</label>
+                        <label for="name" id="name-label" required>* Name:</label>
                     </div>
                     <div class="inputs">
                         <input type="text" name="name" id="name" class="input-field" placeholder="Name" required>
@@ -32,7 +32,7 @@
                 
                 <div class="input-row">
                     <div class="labels">
-                        <label for="email" id="email-label">Email: </label>
+                        <label for="email" id="email-label">* Email: </label>
                     </div>
                     <div class="inputs">
                         <input type="email" name="email" id= "email" class="input-field" placeholder="Email" required>
@@ -41,7 +41,7 @@
                 
                 <div class="input-row">
                     <div class="labels">
-                        <label for="number" id="number-label">Age:</label>
+                        <label for="number" id="number-label">* Age:</label>
                     </div>
                     <div class="inputs">
                         <input type="number" name="age" id="number" class="input-field" placeholder="Age" min="1" max="99">
